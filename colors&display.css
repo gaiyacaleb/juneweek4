@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+section{
+    width: 20%;
+    height: 260px;
+    margin: 25px auto;
+    border: 10px solid #1f2630;
+    background-color: #1f2630;
+    color: #fff;
+    border-radius: 20px;
+    text-align: 80%;
+    background-position: 57%;
+
+}
+h1{
+    margin-top: 41px;
+
+}
+
+section>input{
+    background-color: #fc7613;
+    width: 250px;
+    border-radius: 49px;
+    margin-top: 50px;
+
+}
+
+section{
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px 10px;
+    background-image:url(./orang_star-removebg-preview.png);
+}
+p+p{
+    letter-spacing: 15px;
+    position: relative; top: 10px; left: 10px; margin-left: 10px; margin-right: 10px;
+ }
+
+ section:nth-of-type(2){
+    width: 30%;
+    height: 300px;
+    margin: 25px auto;
+    border: 10px solid #1f2630;
+    background-color:#1f2630;
+    color: white;
+    border-radius: 20px; 
+    
+ }
+ section:nth-of-type(2)h1{
+    margin-top: 40px;
+    background-position: center;
+ }
+
+section:nth-of-type(2){
+    background-image: url(./my\ guy.jpg);
+    background-repeat: no-repeat;
+    background-position: 200px 30px;
+    background-size: 60px;
+}
+
+ section:nth-child(2)p{
+    margin-top: 10px;
+ }
+
+ section:nth-of-type(2) input{
+    border-radius:20px;
+    width:350px;
+ }
